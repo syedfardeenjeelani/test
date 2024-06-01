@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* styling for hero section */ /* styling for hero section */
+
+/* styling for hero section */ /* styling for hero section */
+
+/* styling for hero section */ /* styling for hero section */
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 68px;
+}
+.hero-text-container {
+  width: 46%;
+}
+.title {
+  width: 814px;
+  margin-bottom: 50px;
+}
+.award {
+  color: #ff3147;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Cormorant SC", serif;
+  margin-bottom: 39px;
+}
+.title {
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 60px;
+}
+.description {
+  font-family: "Poppins", sans-serif;
+  color: #6d6d6d;
+  margin-bottom: 60px;
+}
+#contactUsBtn {
+  width: 160px;
+  height: 50px;
+  background-color: #ff3147;
+  border-radius: 2px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+#contactUsBtn:hover {
+  background-color: #fa6070;
+  cursor: pointer;
+}
+
+.hero-image {
+  background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:62beadb2-fac2-491b-90d9-5bc90d77ae70;revision=0?component_id=b005b319-389f-4d4f-8c08-8b8b4c3b9a55&api_key=CometServer1&access_token=1717217321_urn%3Aaaid%3Asc%3AUS%3A62beadb2-fac2-491b-90d9-5bc90d77ae70%3Bpublic_411885b8a3a08f8571ef2d394b8d2e9da0e360b4");
+  width: 487px;
+  height: 737px;
+}
+
+/* styling for  Modal (initially hidden) section */ /* styling for   Modal (initially hidden) section */
+
+/* styling for   Modal (initially hidden) section */ /* styling for   Modal (initially hidden) section */
+
+/* styling for   Modal (initially hidden) section */ /* styling for   Modal (initially hidden) section */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 450px;
+  height: 362px;
+  overflow: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  padding: 32px 32px 32px 25px;
+  overflow: hidden;
+}
+
+/* Styling the form section */ /* Styling the form section */
+
+/* Styling the form section */ /* Styling the form section */
+
+/* Styling the form section */ /* Styling the form section */
+
+.form {
+  overflow: hidden;
+}
+
+.formtitle {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #2d3142;
+  margin-bottom: 32px;
+}
+.email {
+  color: #6f718f99;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #6f718f99;
+  width: 386px;
+  outline: none;
+  margin-bottom: 50px;
+}
+.Firstname {
+  width: 178px;
+  height: 27px;
+  color: #6f718f99;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #6f718f99;
+  outline: none;
+  margin-bottom: 40px;
+  margin-right: 30px;
+}
+.Lastname {
+  width: 178px;
+  height: 27px;
+  color: #6f718f99;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #6f718f99;
+  outline: none;
+  margin-bottom: 40px;
+}
+.iagree {
+  color: #616678;
+  opacity: 0.9;
+  font-size: 14px;
+}
+.formContactUsBtn {
+  margin-top: 22px;
+
+  width: 386px;
+  height: 52px;
+  background-color: #ff3366;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+.formContactUsBtn:hover {
+  background-color: #fa6070;
+  cursor: pointer;
+}
+
+/* 2nd page styling here */ /* 2nd page styling here */
+
+/* 2nd page styling here */ /* 2nd page styling here */
+
+.page2wrapper {
+  height: 100vh;
+  display: flex;
+  margin-top: 100px;
+
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+}
+.headings {
+  width: 85vw;
+  margin-top: 100px;
+}
+
+.whatwedo {
+  color: #ff3147;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Cormorant SC", serif;
+  margin-bottom: 40px;
+}
+.holdingtitle-para {
+  display: flex;
+
+  width: 100%;
+}
+.headings-title {
+  font-size: 45px;
+  width: 447px;
+  margin-right: 3.5rem;
+}
+.headings-para {
+  font-family: "Poppins", sans-serif;
+  color: #6d6d6d;
+  margin-bottom: 60px;
+  width: 38rem;
+}
+.slider {
+  width: 85vw;
+  display: flex;
+  gap: 30px;
+}
+.slider img {
+  width: 370px;
+  height: 526px;
+}
+.dots {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 20px;
+}
+.slider {
+  width: 85vw;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider img {
+  width: 370px;
+  height: 526px;
+  transition: transform 0.5s ease;
+}
+
+.dots {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 20px;
+}
+.detailsOnHover {
+  width: 370px;
+  height: 526px;
+  background-color: #ff3147;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+ display: none;
+}
+.detailsImg {
+  width: 57px;
+  height: 57px;
+}
+.detailH1 {
+  font-size: 24px;
+  color: #ffffff;
+
+  font-family: "Cormorant SC", serif;
+}
+.detailsOnHover p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+.detailsOnHover a {
+  width: 185px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #FF3147;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+
+
+.image-container1:hover #img1 {
+    display: none;
+}
+
+.image-container2:hover #img2 {
+    opacity: 0;
+    display: none;
+}
+.image-container3:hover #img3 {
+    opacity: 0;
+    display: none;
+}
+.image-container1:hover .detailsOnHover {
+    display: flex; 
+}
+.image-container2:hover .detailsOnHover {
+    display: flex; 
+}
+.image-container3:hover .detailsOnHover {
+    display: flex; 
+}
+
+/* Media queries responsive sections */ /* Media queries responsive sections */
+
+/* Media queries responsive sections */ /* Media queries responsive sections */
+
+@media (max-width: 1260px) {
+  /* hero section media queries 1260px*/ /* hero section media queries 1260px*/
+
+  /* hero section media queries 1260px*/ /* hero section media queries 1260px*/
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text-container {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+  }
+  .description {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .slider {
+    width: 85vw;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+  #img2,
+  #img3 {
+    display: none;
+  }
+  #img1 {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  /* hero section media queries 600px*/ /* hero section media queries 600px*/
+
+  /* hero section media queries 600px*/ /* hero section media queries 600px*/
+
+  .hero-image {
+    width: 100%;
+    height: 737px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .title {
+    font-size: 40px;
+  }
+
+  /* form section media queries 600px*/ /* form section media queries 600px*/
+
+  /* form section media queries 600px*/ /* form section media queries 600px*/
+
+  .Firstname,
+  .Lastname {
+    width: 100%;
+  }
+
+  .slider {
+    width: 85vw;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+  #img2,
+  #img3 {
+    display: none;
+  }
+  .headings-title {
+    font-size: 28px;
+  }
+  .headings-para {
+    width: auto;
+  }
+ .whatwedo{
+    text-align: center;
+ }
+}
+
+@media (max-width: 485px) {
+  /* hero section media queries 485px*/ /* hero section media queries 485px*/
+
+  /* hero section media queries 485px */ /* hero section media queries 485px*/
+
+  .hero-image {
+    width: 350px;
+    height: 737px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* form section media queries 485px */ /* form section media queries 485px*/
+
+  /* form section media queries  485px*/ /* form section media queries 485px */
+
+  .formContactUsBtn {
+    width: 60%;
+  }
+  .modal {
+    height: 467px;
+    top: 0;
+    width: 333px;
+  }
+}
